@@ -1,0 +1,103 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mes Loisirs{% endblock %}
+
+{% block body %}
+   <div class="container">
+       <!-- En-tête -->
+       <header class="text-center my-5">
+           <h1>Mes Passions & Loisirs</h1>
+           <p class="lead">Découvrez ce qui m'anime au quotidien</p>
+       </header>
+
+       <!-- Section Football -->
+       <section class="mb-5">
+           <div class="card">
+               <div class="card-header bg-primary text-white">
+                   <h2>Football</h2>
+               </div>
+               <div class="card-body">
+                   <div class="row">
+                       <div class="col-md-12">
+                           <h3>Mon Parcours dans le Football</h3>
+                           <ul class="list-group list-group-flush">
+                               <li class="list-group-item">11 ans de pratique à l'Olympique Salaise Rhodia (2013-2024)</li>
+                               <li class="list-group-item">Participation à de nombreux tournois locaux</li>
+                               <li class="list-group-item">Développement de l'esprit d'équipe et de la discipline</li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <!-- Section Sports -->
+       <section class="mb-5">
+           <div class="card">
+               <div class="card-header bg-success text-white">
+                   <h2>Autres Sports</h2>
+               </div>
+               <div class="card-body">
+                   <div class="row">
+                       <div class="col-md-6">
+                           <h3>Volleyball</h3>
+                           <ul class="list-group list-group-flush">
+                               <li class="list-group-item">Pratique régulière en loisir</li>
+                               <li class="list-group-item">Passion pour les sports collectifs</li>
+                           </ul>
+                       </div>
+                       <div class="col-md-6">
+                           <h3>Sports en Général</h3>
+                           <ul class="list-group list-group-flush">
+                               <li class="list-group-item">Intérêt pour différentes disciplines sportives</li>
+                               <li class="list-group-item">Suivi régulier des événements sportifs majeurs</li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+
+       <!-- Section Automobile -->
+       <section class="mb-5">
+           <div class="card">
+               <div class="card-header bg-danger text-white">
+                   <h2>Passion Automobile</h2>
+               </div>
+               <div class="card-body">
+                   <h3>Mon Intérêt pour les Voitures</h3>
+                   <ul class="list-group list-group-flush">
+                       <li class="list-group-item">Passionné par la technologie automobile</li>
+                       <li class="list-group-item">Suivi des dernières innovations du secteur</li>
+                       <li class="list-group-item">Intérêt particulier pour la performance et le design</li>
+                   </ul>
+               </div>
+           </div>
+       </section>
+
+       <!-- Section Voyage -->
+       <section class="mb-5">
+           <div class="card">
+               <div class="card-header bg-info text-white">
+                   <h2>Voyages et Découvertes</h2>
+               </div>
+               <div class="card-body">
+                   <h3>Envie de Découvrir le Monde</h3>
+                   <ul class="list-group list-group-flush">
+                       <li class="list-group-item">Intérêt pour la découverte de nouvelles cultures</li>
+                       <li class="list-group-item">Désir de voyager et d'explorer différents pays</li>
+                       <li class="list-group-item">Ouverture aux différentes cultures et traditions</li>
+                   </ul>
+               </div>
+           </div>
+       </section>
+   </div> 
+
+   <!-- Citation inspirante -->
+   <div class="container text-center mt-4 mb-5">
+       <blockquote class="blockquote">
+           <p class="mb-0">"Le sport va chercher la peur pour la dominer, la fatigue pour en triompher, la difficulté pour la vaincre."</p>
+           <footer class="blockquote-footer">Pierre de Coubertin</footer>
+       </blockquote>
+   </div>
+{% endblock %}

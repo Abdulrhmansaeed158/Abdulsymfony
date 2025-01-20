@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Welcome to my portfolio{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <!-- Section Présentation -->
+        <header class="text-center py-5">
+            <h1 class="display-4">SAE1.04 presentation</h1>
+            <h2 class="text-primary">Abdulrhman Saeed</h2>
+        </header>
+
+        <!-- Informations personnelles -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0">Personal Information</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <strong>Name:</strong> Abdulrhman Saeed
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Group:</strong> A2
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Birth Date:</strong> May 10, 2006
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Study Program:</strong> BUT Networks and Telecommunications
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Présentation -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h3 class="mb-0">About Me</h3>
+                    </div>
+                    <div class="card-body">
+                        <p class="lead">
+                            I am a first-year student in Networks and Telecommunications at IUT Roanne. Passionate about technology and networks, I am working towards becoming a network and telecommunications technician. My background in sports, particularly football, has taught me the importance of teamwork and discipline.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pour en savoir plus -->
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h3 class="mb-0">Learn More</h3>
+                    </div>
+                    <div class="card-body text-center">
+                        <p>Discover more about my interests, skills, and experiences through my portfolio</p>
+                        <a href="/loisirs" class="btn btn-primary me-2">My Hobbies</a>
+                        <a href="/cv" class="btn btn-success me-2">My CV</a>
+                        <a href="/portfolio" class="btn btn-info">My Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
